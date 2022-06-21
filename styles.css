@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  color: rgb(32, 98, 178);
+  text-align: center;
+  background-color: rgb(220, 226, 232);
+}
+
+h1 {
+  font-weight: bolder
+}
+
+.container {
+  display: inline-flexbox;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+form.form-example {
+  display: inline-block;
+}
+
+div.form-example {
+  display: inline-block;
+}
+
+label, input {
+  display: table-cell;
+  margin-bottom: 10px;
+}
+
+label {
+  padding-right: 10px;
+}
+
+#number-input {
+  width: 200px;
+  height: 17px;
+}

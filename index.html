@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guessing Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Your link to your CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    <!-- your HTML should go here -->
+    <nav>
+      <h1>Let's Play the Guessing Number Game!</h1>
+      <h1>To start, please click the start game button.</h1>
+    </nav>
+    <hr>
+    <div class="container" id="mainBodyContainer">
+      <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <button type="button" id="start-game">Start Game</button>
+        </div>
+        <div class="form-example">
+          <label for="number"><b>Enter your guess:</b></label>
+          <input type="number" name="number" id="number-input" min="1" max="100" required>
+        </div>
+        <div class="form-example">
+          <button type="button" id="check-number">Check Your Guess!</button>
+        </div>
+      </form>
+      <h1 id="user-comment"></h1>
+
+
+    </div>
+
+  <!-- Your Javascript file goes here -->
+  <script src="app.js" async defer></script>
+  </body>
+</html>
